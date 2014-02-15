@@ -14,8 +14,8 @@ function backgroundify(){
 			      html.clientHeight, html.scrollHeight,
 			      html.offsetHeight );
     var match; var bmatch; var flow; var bflow;
-    var width = Math.max(window.innerWidth, window.outerWidth);
-    var height = Math.max(window.innerHeight, window.outerHeight) + 100;
+    var width = window.innerWidth;
+    var height = window.innerHeight;
     var background = document.getElementById('background');
     var bwidth = background.width
     var bheight = background.height;
