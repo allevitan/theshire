@@ -1,0 +1,36 @@
+body{
+    font-family:helvetica, arial, sans-serif;
+    color:#FFFFFF;
+}
+
+.container{
+    width:500px;
+    margin-left:10%;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+img#background{
+    z-index:-1;
+    display:block;
+    position:fixed;
+    left:0px;
+    top:0px;
+}
+
+h1 {
+    font-size:100px;
+    margin-top:0px;
+    margin-bottom:50px;
+}
+
+
+ul.menu{
+    list-style-type:none;
+    padding-left:0px;
+    font-size:40px;
+}
+
+ul.menu li{
+    margin-bottom:20px;
+}
